@@ -10,7 +10,7 @@ My research focuses on transforming healthcare through artificial intelligence a
 
 ## News
 
-- **[May. 2025]** Joined the Shanghai Jiaotong University as an Assistant Professor.
+- **[May. 2025]** Joined Shanghai Jiao Tong University as an Assistant Professor.
 - **[Feb. 2025]** Our work [Holistic AI analysis of hybrid cardiac perfusion images for mortality prediction](https://www.medrxiv.org/content/10.1101/2024.04.23.24305735v1.supplementary-material) has been accepted by npj Digital Medicine(IF: 15.4, 2021).
 - **[Sep. 2024]** Our work [Automating Revascularization Decision Support: Clinical Application of Artificial Intelligence](https://www.journalofnuclearcardiology.org/article/S1071-3581(24)00677-9/fulltext) received the Barry L. Zaret Young Investigator Award @ ASNC 2024
 - **[July. 2022]** Our work [Range of Motion Sensors for Monitoring Recovery of Total Knee Arthroplasty](https://ieeexplore.ieee.org/abstract/document/9928500/) received the best paper award (honorable mention) at IEEE BHI-BSN Conference 2022.
