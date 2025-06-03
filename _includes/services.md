@@ -1,16 +1,6 @@
-## Services
+## Grants
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
-  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
-  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
-
-<ul style="margin:0 0 20px;">
-  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
-  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
-</ul>
+- National Institutes of Health, [5R35HL161195-03](https://reporter.nih.gov/project-details/10854775), Patient-
+specific Outcome Prediction from Cardiovascular Multimodality Imaging by Artificial Intelligence, 2022-2029 (Participated)
+- National Institutes of Health, [5R01EB034586-03](https://reporter.nih.gov/project-details/10899716), Integrating Artificial Intelligence for Optimal Analysis of CardiacPET/CT, 2022-2026 (Participated)
+- National Institutes of Health, [R01HS024394-01](), $1,500,000, Sensing in At Risk Populations (SARP): Monitoring performance status, activities of daily living, and independence to promote safe outcomes for elderly patients in rehab, the home and long-term care, 2016 - 2019 (Participated)
