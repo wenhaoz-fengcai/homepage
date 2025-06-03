@@ -21,6 +21,7 @@ main:
     conference_short: CONF-CDS
     conference: The 4th International Conference on Computing and Data Science <strong>(CONF-CDS)</strong>, 2022.
     pdf: https://arxiv.org/abs/2206.14200
+    code: https://github.com/wenhaoz-fengcai/ECG-Arrhythmia-Detection-DL
     image: ./assets/img/CONF-CDS_2022.png
     notes: Best Paper Award
 
