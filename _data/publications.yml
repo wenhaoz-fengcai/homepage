@@ -7,7 +7,7 @@ main:
     code: https://github.com/qimagingAI/HolisticAIforSPECT-CT
     image: ./assets/img/npjDigMed_202502.png
 
-  - title: Automating Revascularization Decision Support: Clinical Application of Artificial Intelligence
+  - title: Automating Revascularization Decision Support Clinical Application of Artificial Intelligence
     authors: <strong>Wenhao Zhang</strong>, Robert JH Miller, Krishna K Patel, Aakash Shanbhag, Joanna X Liang, Marcelo F DiCarli, Sharmila Dorbala, Andrew J Einstein, Mathews Fish, M Timothy Hauser, Philipp A Kaufmann, Edward J Miller, Terrence D Ruddy, Timothy M Bateman, Monica Martins, Tali Sharir, Julian Halcox, Wanda Acampa, Damini Dey, Daniel Berman, Piotr Slomka
     conference_short: ASNC
     conference: American Society of Nuclear Cardiology 2024
@@ -23,9 +23,9 @@ main:
     image: ./assets/img/CONF-CDS_2022.png
     notes: [Best Paper Award](./assets/img/CONF-CDS2022BestPaperAward.png)
 
-  - title: Causal inference in medicine and in health policy: A summary
+  - title: Causal inference in medicine and in health policy A summary
     authors: <strong>Wenhao Zhang</strong>, Ramin Ramezani, Arash Naeim
-    conference: HANDBOOK ON COMPUTER LEARNING AND INTELLIGENCE: Volume 2: Deep Learning, Intelligent Control and Evolutionary Computation
+    conference: HANDBOOK ON COMPUTER LEARNING AND INTELLIGENCE Volume 2 Deep Learning, Intelligent Control and Evolutionary Computation
     pdf: https://arxiv.org/pdf/2105.04655
     image: ./assets/img/HCLICh6.png
     notes: Book chapter (Chapter 6)
