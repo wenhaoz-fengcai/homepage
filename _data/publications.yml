@@ -26,13 +26,12 @@ main:
 
   - title: Causal inference in medicine and in health policy A summary
     authors: <strong>Wenhao Zhang</strong>, Ramin Ramezani, Arash Naeim
-    conference: HANDBOOK ON COMPUTER LEARNING AND INTELLIGENCE Volume 2 Deep Learning, Intelligent Control and Evolutionary Computation
+    conference: HANDBOOK ON COMPUTER LEARNING AND INTELLIGENCE Volume 2 Deep Learning, Intelligent Control and Evolutionary Computation (Chapter 6)
     pdf: https://arxiv.org/pdf/2105.04655
     image: ./assets/img/HCLICh6.png
-    notes: Book chapter (Chapter 6)
 
   - title: Large-scale causal approaches to debiasing post-click conversion rate estimation with multi-task learning
-    authors: <strong>Wenhao Zhang</strong>,  W Bao, XY Liu, K Yang, Q Lin, H Wen, R Ramezani
+    authors: <strong>Wenhao Zhang</strong>*,  W Bao*, XY Liu, K Yang, Q Lin, H Wen, R Ramezani (*Co-first authors)
     conference_short: The Web Conference
     conference: Proceedings of the web conference <strong>(The Web Conference)</strong>, 2020
     pdf: https://dl.acm.org/doi/pdf/10.1145/3366423.3380037
