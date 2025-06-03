@@ -6,3 +6,11 @@ main:
     pdf: https://www.nature.com/articles/s41746-025-01526-0
     code: https://github.com/qimagingAI/HolisticAIforSPECT-CT
     image: ./assets/img/npjDigMed_202502.png
+
+  - title: Automating Revascularization Decision Support Clinical Application of Artificial Intelligence
+    authors: <strong>Wenhao Zhang</strong>, Robert JH Miller, Krishna K Patel, Aakash Shanbhag, Joanna X Liang, Marcelo F DiCarli, Sharmila Dorbala, Andrew J Einstein, Mathews Fish, M Timothy Hauser, Philipp A Kaufmann, Edward J Miller, Terrence D Ruddy, Timothy M Bateman, Monica Martins, Tali Sharir, Julian Halcox, Wanda Acampa, Damini Dey, Daniel Berman, Piotr Slomka
+    conference_short: ASNC
+    conference: American Society of Nuclear Cardiology 2024
+    pdf: https://www.journalofnuclearcardiology.org/article/S1071-3581(24)00677-9/fulltext
+    image: ./assets/img/ASNC2024.png
+    notes: [Barry L. Zaret Young Investigator Award](./assets/img/YIA2024.png)
