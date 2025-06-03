@@ -1,49 +1,39 @@
 main:
 
-  - title: "Holistic AI analysis of hybrid cardiac perfusion images for mortality prediction"
+  - title: Holistic AI analysis of hybrid cardiac perfusion images for mortality prediction
     authors: Anna M Marcinkiewicz*, <strong>Wenhao Zhang</strong>*, Aakash Shanbhag, Robert JH Miller, Mark Lemley, Giselle Ramirez, Mikolaj Buchwald, Aditya Killekar, Paul B Kavanagh, Attila Feher, Edward J Miller, Andrew J Einstein, Terrence D Ruddy, Joanna X Liang, Valerie Builoff, David Ouyang, Daniel S Berman, Damini Dey, Piotr J Slomka (*Co-first authors)
     conference: npj Digital Medicine
     pdf: https://www.nature.com/articles/s41746-025-01526-0
     code: https://github.com/qimagingAI/HolisticAIforSPECT-CT
-    #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/npjDigMed_202502.png
 
-  - title: "Automating Revascularization Decision Support: Clinical Application of Artificial Intelligence"
+  - title: Automating Revascularization Decision Support: Clinical Application of Artificial Intelligence
     authors: <strong>Wenhao Zhang</strong>, Robert JH Miller, Krishna K Patel, Aakash Shanbhag, Joanna X Liang, Marcelo F DiCarli, Sharmila Dorbala, Andrew J Einstein, Mathews Fish, M Timothy Hauser, Philipp A Kaufmann, Edward J Miller, Terrence D Ruddy, Timothy M Bateman, Monica Martins, Tali Sharir, Julian Halcox, Wanda Acampa, Damini Dey, Daniel Berman, Piotr Slomka
     conference_short: ASNC
     conference: American Society of Nuclear Cardiology 2024
     pdf: https://www.journalofnuclearcardiology.org/article/S1071-3581(24)00677-9/fulltext
-    #code: https://github.com/MrGiovanni/ContinualLearning
-    #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/ASNC2024.png
     notes: [Barry L. Zaret Young Investigator Award](./assets/img/YIA2024.png)
 
-  - title: "ECG Heartbeat classification using deep transfer learning with Convolutional Neural Network and STFT technique"
+  - title: ECG Heartbeat classification using deep transfer learning with Convolutional Neural Network and STFT technique
     authors: M Cao, T Zhao, Y Li, <strong>Wenhao Zhang</strong>*, P Benharash, R Ramezani* (*Corresponding authors)
     conference_short: CONF-CDS
     conference: The 4th International Conference on Computing and Data Science <strong>(CONF-CDS)</strong>, 2022.
     pdf: https://arxiv.org/abs/2206.14200
-    #code: https://github.com/MrGiovanni/ContinualLearning
-    #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/CONF-CDS_2022.png
     notes: [Best Paper Award](./assets/img/CONF-CDS2022BestPaperAward.png)
 
-  - title: "Causal inference in medicine and in health policy: A summary"
+  - title: Causal inference in medicine and in health policy: A summary
     authors: <strong>Wenhao Zhang</strong>, Ramin Ramezani, Arash Naeim
     conference: HANDBOOK ON COMPUTER LEARNING AND INTELLIGENCE: Volume 2: Deep Learning, Intelligent Control and Evolutionary Computation
     pdf: https://arxiv.org/pdf/2105.04655
-    #code: https://github.com/MrGiovanni/ContinualLearning
-    #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/HCLICh6.png
     notes: Book chapter (Chapter 6)
 
-  - title: "Large-scale causal approaches to debiasing post-click conversion rate estimation with multi-task learning"
+  - title: Large-scale causal approaches to debiasing post-click conversion rate estimation with multi-task learning
     authors: <strong>Wenhao Zhang</strong>,  W Bao, XY Liu, K Yang, Q Lin, H Wen, R Ramezani
     conference_short: The Web Conference
     conference: Proceedings of the web conference <strong>(The Web Conference)</strong>, 2020
     pdf: https://dl.acm.org/doi/pdf/10.1145/3366423.3380037
-    #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    #page: https://dl.acm.org/doi/abs/10.1145/3366423.3380037
-    #bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/web_conference_2020.png
     notes: Oral Presentation
