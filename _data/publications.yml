@@ -1,5 +1,13 @@
 main:
 
+  - title: Multicenter evaluation of interpretable AI for coronary artery disease diagnosis from PET biomarkers
+    authors: <strong>Wenhao Zhang</strong>, Jacek Kwiecinski, Aakash Shanbhag, Robert J. H. Miller, Shiva Mostafavi, Giselle Ramirez, Jirong Yi, Donghee Han, Damini Dey, Dominika Grodecka, Kajetan Grodecki, Mark Lemley, Paul Kavanagh, Joanna X. Liang, Jianhang Zhou, Valerie Builoff, Jon Hainer, Sylvain Carre, Leanne Barrett, Andrew J. Einstein, Stacey Knight, Steve Mason, Viet T. Le, Wanda Acampa, Samuel Wopperer, Panithaya Chareonthaitawee, Daniel S. Berman, Marcelo F. Di Carli & Piotr J. Slomka
+    conference_short: npj Digit. Med.
+    conference: Nature npj Digital Medicine
+    pdf: https://www.nature.com/articles/s41746-026-02338-6
+    code: https://github.com/qimagingAI/AI4CADdiagnosisPET-CT
+    image: ./assets/img/npjDigMed_202601.png
+    
   - title: Holistic AI analysis of hybrid cardiac perfusion images for mortality prediction
     authors: Anna M Marcinkiewicz*, <strong>Wenhao Zhang</strong>*, Aakash Shanbhag, Robert JH Miller, Mark Lemley, Giselle Ramirez, Mikolaj Buchwald, Aditya Killekar, Paul B Kavanagh, Attila Feher, Edward J Miller, Andrew J Einstein, Terrence D Ruddy, Joanna X Liang, Valerie Builoff, David Ouyang, Daniel S Berman, Damini Dey, Piotr J Slomka (*Co-first authors)
     conference_short: npj Digit. Med.
@@ -25,11 +33,11 @@ main:
     image: ./assets/img/CONF-CDS_2022.png
     notes: Best Paper Award
 
-  - title: Causal inference in medicine and in health policy A summary
-    authors: <strong>Wenhao Zhang</strong>, Ramin Ramezani, Arash Naeim
-    conference: HANDBOOK ON COMPUTER LEARNING AND INTELLIGENCE Volume 2 Deep Learning, Intelligent Control and Evolutionary Computation (Chapter 6)
-    pdf: https://arxiv.org/pdf/2105.04655
-    image: ./assets/img/HCLICh6.png
+  # - title: Causal inference in medicine and in health policy A summary
+  #   authors: <strong>Wenhao Zhang</strong>, Ramin Ramezani, Arash Naeim
+  #   conference: HANDBOOK ON COMPUTER LEARNING AND INTELLIGENCE Volume 2 Deep Learning, Intelligent Control and Evolutionary Computation (Chapter 6)
+  #   pdf: https://arxiv.org/pdf/2105.04655
+  #   image: ./assets/img/HCLICh6.png
 
   - title: Large-scale causal approaches to debiasing post-click conversion rate estimation with multi-task learning
     authors: <strong>Wenhao Zhang</strong>*,  W Bao*, XY Liu, K Yang, Q Lin, H Wen, R Ramezani (*Co-first authors)
