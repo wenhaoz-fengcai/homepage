@@ -9,9 +9,11 @@ I am an Assistant Professor in the School of Automation and Intelligent Sensing 
 My research focuses on transforming healthcare through artificial intelligence and causal inference, with a specific emphasis on developing novel AI methodologies to improve the diagnosis and treatment strategies for cardiovascular disease. I address key challenges such as integrating complex multimodal data and bridging the gap in individualized decision-making, with the goal of enabling AI-powered precision diagnosis and personalized care in real-world clinical settings.
 
 ## News
-
+- **[Jan. 2026]** Our work [Multicenter Evaluation of Interpretable AI for Coronary Artery Disease Diagnosis from PET Biomarkers](https://doi.org/10.1038/s41746-026-02338-6) has been accepted by npj Digital Medicine (IF: 15.1)
+- **[Nov. 2025]** Received Bronze Award @ China International College Students’ Innovation Competition (International Projects Track, Higher Education Main Track, Nationwide).
+- **[Nov. 2025]** Received Silver Award @ China International College Students’ Innovation Competition (International Projects Track, Higher Education Main Track, Shanghai Region).
 - **[May. 2025]** Joined Shanghai Jiao Tong University as an Assistant Professor.
-- **[Feb. 2025]** Our work [Holistic AI analysis of hybrid cardiac perfusion images for mortality prediction](https://www.medrxiv.org/content/10.1101/2024.04.23.24305735v1.supplementary-material) has been accepted by npj Digital Medicine(IF: 15.4, 2021).
+- **[Feb. 2025]** Our work [Holistic AI analysis of hybrid cardiac perfusion images for mortality prediction](https://www.medrxiv.org/content/10.1101/2024.04.23.24305735v1.supplementary-material) has been accepted by npj Digital Medicine(IF: 15.1).
 - **[Dec. 2024]** Awarded the Shanghai Magnolia Talent Program (2024上海白玉兰人才计划-海外高层次人才)
 - **[Sep. 2024]** Our work [Automating Revascularization Decision Support: Clinical Application of Artificial Intelligence](https://www.journalofnuclearcardiology.org/article/S1071-3581(24)00677-9/fulltext) received the <span style="color:red">Barry L. Zaret Young Investigator Award</span> @ ASNC 2024
 - **[Sep. 2022]** Our work [Range of Motion Sensors for Monitoring Recovery of Total Knee Arthroplasty](https://ieeexplore.ieee.org/abstract/document/9928500/) received the <span style="color:red">best paper award (honorable mention)</span> at IEEE BHI-BSN Conference 2022.
