@@ -1,0 +1,20 @@
+{% assign project = include.project %}
+<article class="project-row">
+  <div class="project-meta">
+    <span>{{ project.period }}</span>
+    <span>{% if page.lang == 'zh' and project.status_zh %}{{ project.status_zh }}{% else %}{{ project.status }}{% endif %}</span>
+  </div>
+  <div>
+    <h2>{% if page.lang == 'zh' and project.title_zh %}{{ project.title_zh }}{% else %}{{ project.title }}{% endif %}</h2>
+    <p>{% if page.lang == 'zh' and project.summary_zh %}{{ project.summary_zh }}{% else %}{{ project.summary }}{% endif %}</p>
+    {% if project.topics %}
+      <ul class="inline-topics" aria-label="Topics">
+        {% if page.lang == 'zh' and project.topics_zh %}
+          {% for topic in project.topics_zh %}<li>{{ topic }}</li>{% endfor %}
+        {% else %}
+          {% for topic in project.topics %}<li>{{ topic }}</li>{% endfor %}
+        {% endif %}
+      </ul>
+    {% endif %}
+  </div>
+</article>

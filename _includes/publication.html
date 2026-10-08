@@ -1,0 +1,7 @@
+{% assign p = include.publication %}
+{% assign highlighted_authors = p.authors | replace: "Wenhao Zhang", '<span class="publication-self-author">Wenhao Zhang</span>' %}
+<article class="publication-entry">
+  <p class="publication-title">{{ p.title }}.{% if p.paper_url %} <span class="publication-inline-link">[<a href="{{ p.paper_url }}" target="_blank" rel="noopener noreferrer">{{ p.paper_label | default: "Article" }}</a>]</span>{% endif %}{% if p.code_url %} <span class="publication-inline-link">[<a href="{{ p.code_url }}" target="_blank" rel="noopener noreferrer">Code</a>]</span>{% endif %}</p>
+  <p class="publication-authors">{{ highlighted_authors }}.</p>
+  <p class="publication-venue"><em>{{ p.venue }}</em> ({{ p.year }}).</p>
+</article>

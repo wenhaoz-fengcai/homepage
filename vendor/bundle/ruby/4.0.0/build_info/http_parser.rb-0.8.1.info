@@ -1,0 +1,2 @@
+--with-cflags=-O2
+-g0

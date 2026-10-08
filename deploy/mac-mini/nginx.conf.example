@@ -1,0 +1,16 @@
+# Template only: replace REPLACE_WITH_BREW_PREFIX with the output of brew --prefix.
+# Example root: /opt/homebrew/var/www/zhang-lab
+# HTTP test configuration; HTTPS must be configured separately for public use.
+server {
+    listen 8081;
+    server_name localhost;
+
+    root REPLACE_WITH_BREW_PREFIX/var/www/zhang-lab;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Content-Type-Options nosniff always;
+}

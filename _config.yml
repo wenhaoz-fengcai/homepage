@@ -1,54 +1,36 @@
-# Basic Information 
-title: Wenhao Zhang （张文豪）
-position: Tenure Track Assistant Professor
-affiliation_en: Shanghai Jiao Tong University
-affiliation_cn: 上海交通大学
-email: zhang.wenhao@sjtu.edu.cn
+title: "Wenhao Zhang"
+subtitle: "AI for Health"
+description: "Wenhao Zhang's research in causal intelligence, disease dynamics, and clinical AI."
+url: ""
+baseurl: ""
+permalink: pretty
+markdown: kramdown
+timezone: Asia/Shanghai
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+collections:
+  students:
+    output: false
+  projects:
+    output: false
+  publications:
+    output: false
+  teaching:
+    output: false
+  news:
+    output: false
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=BE7vPzEAAAAJ&hl=en
-#cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/wenhaoz-fengcai
-linkedin: https://www.linkedin.com/in/wenhaozhangcsmc/
-twitter: https://x.com/Wenhao_Zhang_X
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      lang: en
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon.png
-
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
-
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
-
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
-
-# The following files will be removed from the generated website.
 exclude:
+  - artifacts
+  - deploy
+  - README.md
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
-  - LICENSE
-  - minimal-light.gemspec
-  - html_source_file/
+  - scripts
+  - vendor

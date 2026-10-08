@@ -1,0 +1,19 @@
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb --with-cflags\=-O2 -g0
+creating Makefile
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j11 DESTDIR\= sitearchdir\=./.gem.20261003-44474-xa2fyp sitelibdir\=./.gem.20261003-44474-xa2fyp clean
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j11 DESTDIR\= sitearchdir\=./.gem.20261003-44474-xa2fyp sitelibdir\=./.gem.20261003-44474-xa2fyp
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j11 DESTDIR\= sitearchdir\=./.gem.20261003-44474-xa2fyp sitelibdir\=./.gem.20261003-44474-xa2fyp install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20261003-44474-xa2fyp
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20261003-44474-xa2fyp sitelibdir\=./.gem.20261003-44474-xa2fyp clean

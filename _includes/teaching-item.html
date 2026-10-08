@@ -1,0 +1,10 @@
+{% assign item = include.item %}
+<article class="teaching-row">
+  <div class="teaching-meta">{% if page.lang == 'zh' and item.format_zh %}{{ item.format_zh }}{% else %}{{ item.format }}{% endif %}</div>
+  <div>
+    <h2>{% if page.lang == 'zh' and item.title_zh %}{{ item.title_zh }}{% else %}{{ item.title }}{% endif %}</h2>
+    {% if item.course_url %}
+      <p><a href="{{ item.course_url }}" target="_blank" rel="noopener noreferrer">{% if page.lang == 'zh' %}课程网站{% else %}Course website{% endif %}</a> · {% if page.lang == 'zh' %}仅限校园网访问{% else %}Campus network access only{% endif %}</p>
+    {% endif %}
+  </div>
+</article>

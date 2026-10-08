@@ -1,0 +1,15 @@
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb --with-cflags\=-O2 -g0
+creating Makefile
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j11 DESTDIR\= sitearchdir\=./.gem.20261003-43879-ph3p7g sitelibdir\=./.gem.20261003-43879-ph3p7g clean
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j11 DESTDIR\= sitearchdir\=./.gem.20261003-43879-ph3p7g sitelibdir\=./.gem.20261003-43879-ph3p7g
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+make: *** [ruby_http_parser.bundle] Error 1
+
+make failed, exit code 2
