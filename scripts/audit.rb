@@ -1,10 +1,13 @@
 # frozen_string_literal: true
 
 require "pathname"
+require "yaml"
 
 root = Pathname.new(__dir__).join("..").expand_path
 site = root.join("_site")
 errors = []
+config = YAML.safe_load(root.join("_config.yml").read) || {}
+baseurl = config.fetch("baseurl", "").to_s.chomp("/")
 
 expected_pages = %w[
   index.html
@@ -40,7 +43,8 @@ language_pairs.each do |relative, alternate|
   file = site.join(relative)
   next unless file.file?
 
-  errors << "Incorrect language switch in #{relative}" unless file.read.include?(%(href="#{alternate}"))
+  expected_alternate = "#{baseurl}#{alternate}"
+  errors << "Incorrect language switch in #{relative}" unless file.read.include?(%(href="#{expected_alternate}"))
 end
 
 html_files = site.glob("**/*.html")
@@ -54,7 +58,13 @@ html_files.each do |file|
     path = href.split(/[?#]/, 2).first
     next unless path.start_with?("/")
 
-    target = site.join(path.delete_prefix("/"))
+    if !baseurl.empty? && path != baseurl && !path.start_with?("#{baseurl}/")
+      errors << "Internal link omits baseurl in #{file.relative_path_from(root)}: #{href}"
+      next
+    end
+
+    site_path = path.delete_prefix(baseurl)
+    target = site.join(site_path.delete_prefix("/"))
     target = target.join("index.html") if path.end_with?("/")
     errors << "Broken link in #{file.relative_path_from(root)}: #{href}" unless target.file?
   end

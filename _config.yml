@@ -1,8 +1,8 @@
 title: "Wenhao Zhang"
 subtitle: "AI for Health"
 description: "Wenhao Zhang's research in causal intelligence, disease dynamics, and clinical AI."
-url: ""
-baseurl: ""
+url: "https://wenhaoz-fengcai.github.io"
+baseurl: "/homepage"
 permalink: pretty
 markdown: kramdown
 timezone: Asia/Shanghai
