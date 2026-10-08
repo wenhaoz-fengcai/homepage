@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% capture full_title %}{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}{% endcapture %}
+    {% assign meta_description = page.description | default: page.intro | default: site.description %}
+    <meta name="description" content="{{ meta_description | strip_html | strip_newlines | escape }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ full_title | strip | escape }}">
+    <meta property="og:description" content="{{ meta_description | strip_html | strip_newlines | escape }}">
+    <meta property="og:locale" content="{% if page.lang == 'zh' %}zh_CN{% else %}en_US{% endif %}">
+    <meta name="twitter:card" content="summary">
+    {% if page.lang_alt_url %}<link rel="alternate" hreflang="{% if page.lang == 'zh' %}en{% else %}zh-CN{% endif %}" href="{{ page.lang_alt_url | relative_url }}">{% endif %}
+    <title>{{ full_title | strip }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+    <main id="main-content" class="site-main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

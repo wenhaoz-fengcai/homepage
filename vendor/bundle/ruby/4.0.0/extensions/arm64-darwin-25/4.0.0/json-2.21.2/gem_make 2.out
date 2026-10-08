@@ -1,0 +1,19 @@
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/json-2.21.2/ext/json/ext/generator
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb --with-cflags\=-O2 -g0
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for RUBY_TYPED_EMBEDDABLE in ruby.h... yes
+checking for ruby_xfree_sized() in ruby.h... no
+checking for arm_neon.h... yes
+checking for cpuid.h... no
+creating Makefile
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/json-2.21.2/ext/json/ext/generator
+make -j11 DESTDIR\= sitearchdir\=./.gem.20261003-43879-ssgkwg sitelibdir\=./.gem.20261003-43879-ssgkwg clean
+
+current directory: /Users/wenhao/Desktop/zhang-lab-site/vendor/bundle/ruby/4.0.0/gems/json-2.21.2/ext/json/ext/generator
+make -j11 DESTDIR\= sitearchdir\=./.gem.20261003-43879-ssgkwg sitelibdir\=./.gem.20261003-43879-ssgkwg
+compiling generator.c
+linking shared-object json/ext/generator.bundle
+make: *** [generator.bundle] Error 1
+
+make failed, exit code 2

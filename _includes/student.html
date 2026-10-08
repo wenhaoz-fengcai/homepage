@@ -1,0 +1,5 @@
+{% assign student = include.student %}
+<article class="student-row">
+  <h3>{% if page.lang == 'zh' and student.name_zh %}{{ student.name_zh }}{% else %}{{ student.name }}{% endif %}</h3>
+  <p class="student-meta">{% if page.lang == 'zh' and student.meta_zh %}{{ student.meta_zh }}{% else %}{{ student.meta }}{% endif %}</p>
+</article>

@@ -1,0 +1,8 @@
+{% assign alt = page.lang_alt_url | default: '/' %}
+<nav class="language-switch" aria-label="Language">
+  {% if page.lang == 'zh' %}
+    <a href="{{ alt | relative_url }}"><strong>EN</strong></a><span aria-hidden="true">|</span><span class="language-switch-current" aria-current="page">中文</span>
+  {% else %}
+    <span class="language-switch-current" aria-current="page">EN</span><span aria-hidden="true">|</span><a href="{{ alt | relative_url }}"><strong>中文</strong></a>
+  {% endif %}
+</nav>

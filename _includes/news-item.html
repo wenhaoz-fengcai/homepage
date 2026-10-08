@@ -1,0 +1,5 @@
+{% assign item = include.item %}
+<article class="news-row">
+  <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+  <h2>{% if page.lang == 'zh' and item.title_zh %}{{ item.title_zh }}{% else %}{{ item.title }}{% endif %}</h2>
+</article>

@@ -1,24 +1,34 @@
 ---
-layout: homepage
+layout: default
+title: "Wenhao Zhang"
+lang: en
+permalink: /
+lang_alt_url: /zh/
 ---
 
-## About Me
+<section class="profile-layout" aria-labelledby="profile-name">
+  <div class="portrait-column">
+    <img class="portrait-photo" src="{{ '/assets/images/wenhao-zhang.jpg' | relative_url }}" alt="Portrait of Wenhao Zhang" width="1067" height="1200">
+    <nav class="social-links" aria-label="Academic and social profiles">
+      <a href="https://scholar.google.com/citations?user=BE7vPzEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+      <a href="https://github.com/wenhaoz-fengcai" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/wenhaozhangcsmc/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://x.com/Wenhao_Zhang_X" target="_blank" rel="noopener noreferrer">X</a>
+      <a href="mailto:zhang.wenhao@sjtu.edu.cn">zhang.wenhao@sjtu.edu.cn</a>
+    </nav>
+  </div>
+  <div class="profile-copy">
+    <h1 id="profile-name" class="visually-hidden">Wenhao Zhang</h1>
+    <p>I am a tenure-track Assistant Professor in the School of Automation and Intelligent Sensing at Shanghai Jiao Tong University. My research seeks to develop AI that advances our understanding of the mechanisms governing human health and disease, with the long-term goal of making medicine predictive, preventive, and personalized. Toward this goal, I develop health foundation models and medical world models grounded in causal reasoning and real-world clinical evidence. I received my Ph.D. in Computer Science from UCLA in 2023 and completed my postdoctoral training in the Slomka Lab at Cedars-Sinai Medical Center. My research has been recognized with the Barry L. Zaret Young Investigator Award and multiple best paper awards, and I was selected for the Shanghai Magnolia Talent Program.</p>
+  </div>
+</section>
 
-I am an Assistant Professor in the School of Automation and Intelligent Sensing at Shanghai Jiao Tong University (SJTU). Previously, I was a postdoctoral scientist at Cedars-Sinai Medical Center and a Ph.D. student in the Department of Computer Science at the University of California, Los Angeles (UCLA).
-
-My research focuses on transforming healthcare through artificial intelligence and causal inference, with a specific emphasis on developing novel AI methodologies to improve the diagnosis and treatment strategies for cardiovascular disease. I address key challenges such as integrating complex multimodal data and bridging the gap in individualized decision-making, with the goal of enabling AI-powered precision diagnosis and personalized care in real-world clinical settings.
-
-## News
-- **[Jan. 2026]** Our work [Multicenter Evaluation of Interpretable AI for Coronary Artery Disease Diagnosis from PET Biomarkers](https://doi.org/10.1038/s41746-026-02338-6) has been accepted by npj Digital Medicine (IF: 15.1)
-- **[Nov. 2025]** Received Bronze Award @ China International College Students’ Innovation Competition (International Projects Track, Higher Education Main Track, Nationwide).
-- **[Nov. 2025]** Received Silver Award @ China International College Students’ Innovation Competition (International Projects Track, Higher Education Main Track, Shanghai Region).
-- **[May. 2025]** Joined Shanghai Jiao Tong University as an Assistant Professor.
-- **[Feb. 2025]** Our work [Holistic AI analysis of hybrid cardiac perfusion images for mortality prediction](https://www.medrxiv.org/content/10.1101/2024.04.23.24305735v1.supplementary-material) has been accepted by npj Digital Medicine(IF: 15.1).
-- **[Dec. 2024]** Awarded the Shanghai Magnolia Talent Program (2024上海白玉兰人才计划-海外高层次人才)
-- **[Sep. 2024]** Our work [Automating Revascularization Decision Support: Clinical Application of Artificial Intelligence](https://www.journalofnuclearcardiology.org/article/S1071-3581(24)00677-9/fulltext) received the <span style="color:red">Barry L. Zaret Young Investigator Award</span> @ ASNC 2024
-- **[Sep. 2022]** Our work [Range of Motion Sensors for Monitoring Recovery of Total Knee Arthroplasty](https://ieeexplore.ieee.org/abstract/document/9928500/) received the <span style="color:red">best paper award (honorable mention)</span> at IEEE BHI-BSN Conference 2022.
-- **[July. 2022]** Our work [ECG Heartbeat classification using deep transfer learning with Convolutional Neural Network and STFT technique](https://arxiv.org/pdf/2206.14200) received the <span style="color:red">best paper award</span> at CONF-CDS 2022.
-
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
+<section class="home-panel news-panel" aria-labelledby="home-news">
+  <h2 id="home-news">News</h2>
+  <div class="home-news-list">
+    {% assign news_items = site.news | sort: "date" | reverse %}
+    {% for item in news_items %}
+      <p><time datetime="{{ item.date | date_to_xmlschema }}">{% if item.date_label %}{{ item.date_label }}{% else %}{{ item.date | date: "%m/%Y" }}{% endif %}</time>: {% if item.link_url and item.link_title %}{{ item.link_prefix }}<a href="{{ item.link_url }}" target="_blank" rel="noopener noreferrer">{{ item.link_title }}</a>{% if item.highlight_text %}{{ item.highlight_prefix }}<span class="news-highlight">{{ item.highlight_text }}</span>{% if item.journal %}{{ item.highlight_suffix }}<em>{{ item.journal }}</em>{{ item.journal_suffix }}{% else %}{{ item.highlight_suffix }}{% endif %}{% elsif item.journal %}{{ item.journal_prefix }}<em>{{ item.journal }}</em>{{ item.journal_suffix }}{% else %}{{ item.link_suffix }}{% endif %}{% elsif item.highlight_text %}{{ item.highlight_prefix }}<span class="news-highlight">{{ item.highlight_text }}</span>{% if item.journal %}{{ item.highlight_suffix }}<em>{{ item.journal }}</em>{{ item.journal_suffix }}{% else %}{{ item.highlight_suffix }}{% endif %}{% elsif item.journal %}{{ item.journal_prefix }}<em>{{ item.journal }}</em>{{ item.journal_suffix }}{% else %}{{ item.title }}{% endif %}</p>
+    {% endfor %}
+  </div>
+</section>

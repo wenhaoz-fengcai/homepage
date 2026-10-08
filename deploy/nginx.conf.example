@@ -1,0 +1,20 @@
+# Documentation example only. Do not install without review.
+server {
+    listen 80;
+    server_name example.edu;
+
+    root /path/to/zhang-lab-site/_site;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~* \.(css|js|jpg|jpeg|png|svg|webp|ico)$ {
+        expires 7d;
+        add_header Cache-Control "public, max-age=604800";
+    }
+
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+}
