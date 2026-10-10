@@ -1,6 +1,6 @@
 ---
 title: "Research"
-intro: "My research develops AI for precision medicine and digital health, grounded in causal reasoning and trustworthy methods."
+intro: "My research is organized around two complementary paradigms: **AI for healthcare** deploys artificial intelligence to empower clinical practice in real-world settings, and **AI of healthcare** builds mathematically driven, clinically specialized AI models to address unmet medical needs."
 lang: en
 permalink: /research/
 lang_alt_url: /zh/research/
