@@ -8,7 +8,7 @@ lang_alt_url: /research/
 
 <div class="research-area-list">
   <section class="research-area">
-    <h2>人工智能与精准医学</h2>
+    <h2>人工智能赋能精准医学</h2>
     <div class="research-area-grid">
       <a class="research-figure" href="https://www.nature.com/articles/s41746-026-02338-6" aria-label="基于 PET 生物标志物的可解释冠心病人工智能模型">
         <img src="{{ '/assets/images/research/predisease-modeling.png' | relative_url }}" alt="融合 PET 与 CT 生物标志物的可解释冠心病人工智能框架" loading="lazy">
@@ -20,7 +20,7 @@ lang_alt_url: /research/
   </section>
 
   <section class="research-area">
-    <h2>人工智能与数字健康</h2>
+    <h2>人工智能赋能数字健康</h2>
     <div class="research-area-grid">
       <a class="research-figure" href="https://mhealth.jmir.org/2019/7/e14090/" aria-label="用于亚急性康复的可穿戴感知与室内定位研究">
         <img src="{{ '/assets/images/research/remote-health-monitoring.jpg' | relative_url }}" alt="康复机构中用于可穿戴感知与室内定位的信标布局" loading="lazy">
@@ -32,7 +32,7 @@ lang_alt_url: /research/
   </section>
 
   <section class="research-area">
-    <h2>可信人工智能</h2>
+    <h2>可信医疗人工智能方法学</h2>
     <div class="research-area-grid">
       <a class="research-figure" href="https://dl.acm.org/doi/pdf/10.1145/3366423.3380037" aria-label="点击后转化率估计的大规模因果去偏方法">
         <img src="{{ '/assets/images/research/causal-inference.png' | relative_url }}" alt="用于点击后转化率估计去偏的因果多任务学习框架" loading="lazy">
